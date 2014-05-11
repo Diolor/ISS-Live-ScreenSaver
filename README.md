@@ -14,7 +14,7 @@ The above means that you will have a black or grey screen for ~45 minutes since 
 
 ## Instructions
 
-You can grab the [Release/ISS Screensaver.saver](https://github.com/Diolor/ISS-Live-ScreenSaver/raw/master/Release/ISS Screensaver.saver) and simply install it.
+You can grab the Release/ISS Screensaver.saver and simply install it.
 
 ## TODO:
 
