@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F6B2565191FE4DD0004AADA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6B2564191FE4DD0004AADA /* Cocoa.framework */; };
+		5F6B2567191FE4DD0004AADA /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6B2566191FE4DD0004AADA /* ScreenSaver.framework */; };
+		5F6B2571191FE4DD0004AADA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F6B256F191FE4DD0004AADA /* InfoPlist.strings */; };
+		5F6B2575191FE4DD0004AADA /* ISS_ScreensaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B2574191FE4DD0004AADA /* ISS_ScreensaverView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F6B2561191FE4DD0004AADA /* ISS Screensaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ISS Screensaver.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6B2564191FE4DD0004AADA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5F6B2566191FE4DD0004AADA /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		5F6B2569191FE4DD0004AADA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5F6B256A191FE4DD0004AADA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5F6B256B191FE4DD0004AADA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5F6B256E191FE4DD0004AADA /* ISS Screensaver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ISS Screensaver-Info.plist"; sourceTree = "<group>"; };
+		5F6B2570191FE4DD0004AADA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F6B2572191FE4DD0004AADA /* ISS Screensaver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ISS Screensaver-Prefix.pch"; sourceTree = "<group>"; };
+		5F6B2573191FE4DD0004AADA /* ISS_ScreensaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISS_ScreensaverView.h; sourceTree = "<group>"; };
+		5F6B2574191FE4DD0004AADA /* ISS_ScreensaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISS_ScreensaverView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F6B255C191FE4DD0004AADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6B2567191FE4DD0004AADA /* ScreenSaver.framework in Frameworks */,
+				5F6B2565191FE4DD0004AADA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F6B2556191FE4DD0004AADA = {
+			isa = PBXGroup;
+			children = (
+				5F6B256C191FE4DD0004AADA /* ISS Screensaver */,
+				5F6B2563191FE4DD0004AADA /* Frameworks */,
+				5F6B2562191FE4DD0004AADA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F6B2562191FE4DD0004AADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F6B2561191FE4DD0004AADA /* ISS Screensaver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F6B2563191FE4DD0004AADA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F6B2564191FE4DD0004AADA /* Cocoa.framework */,
+				5F6B2566191FE4DD0004AADA /* ScreenSaver.framework */,
+				5F6B2568191FE4DD0004AADA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F6B2568191FE4DD0004AADA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F6B2569191FE4DD0004AADA /* AppKit.framework */,
+				5F6B256A191FE4DD0004AADA /* CoreData.framework */,
+				5F6B256B191FE4DD0004AADA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5F6B256C191FE4DD0004AADA /* ISS Screensaver */ = {
+			isa = PBXGroup;
+			children = (
+				5F6B2573191FE4DD0004AADA /* ISS_ScreensaverView.h */,
+				5F6B2574191FE4DD0004AADA /* ISS_ScreensaverView.m */,
+				5F6B256D191FE4DD0004AADA /* Supporting Files */,
+			);
+			path = "ISS Screensaver";
+			sourceTree = "<group>";
+		};
+		5F6B256D191FE4DD0004AADA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F6B256E191FE4DD0004AADA /* ISS Screensaver-Info.plist */,
+				5F6B256F191FE4DD0004AADA /* InfoPlist.strings */,
+				5F6B2572191FE4DD0004AADA /* ISS Screensaver-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5F6B255D191FE4DD0004AADA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5F6B2560191FE4DD0004AADA /* ISS Screensaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F6B2578191FE4DD0004AADA /* Build configuration list for PBXNativeTarget "ISS Screensaver" */;
+			buildPhases = (
+				5F6B255B191FE4DD0004AADA /* Sources */,
+				5F6B255C191FE4DD0004AADA /* Frameworks */,
+				5F6B255D191FE4DD0004AADA /* Headers */,
+				5F6B255E191FE4DD0004AADA /* Resources */,
+				5F6B255F191FE4DD0004AADA /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ISS Screensaver";
+			productName = "ISS Screensaver";
+			productReference = 5F6B2561191FE4DD0004AADA /* ISS Screensaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F6B2557191FE4DD0004AADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Dionysis Lorentzos";
+			};
+			buildConfigurationList = 5F6B255A191FE4DD0004AADA /* Build configuration list for PBXProject "ISS Screensaver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5F6B2556191FE4DD0004AADA;
+			productRefGroup = 5F6B2562191FE4DD0004AADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F6B2560191FE4DD0004AADA /* ISS Screensaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F6B255E191FE4DD0004AADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6B2571191FE4DD0004AADA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		5F6B255F191FE4DD0004AADA /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F6B255B191FE4DD0004AADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6B2575191FE4DD0004AADA /* ISS_ScreensaverView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F6B256F191FE4DD0004AADA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F6B2570191FE4DD0004AADA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F6B2576191FE4DD0004AADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5F6B2577191FE4DD0004AADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5F6B2579191FE4DD0004AADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ISS Screensaver/ISS Screensaver-Prefix.pch";
+				INFOPLIST_FILE = "ISS Screensaver/ISS Screensaver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		5F6B257A191FE4DD0004AADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ISS Screensaver/ISS Screensaver-Prefix.pch";
+				INFOPLIST_FILE = "ISS Screensaver/ISS Screensaver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F6B255A191FE4DD0004AADA /* Build configuration list for PBXProject "ISS Screensaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6B2576191FE4DD0004AADA /* Debug */,
+				5F6B2577191FE4DD0004AADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F6B2578191FE4DD0004AADA /* Build configuration list for PBXNativeTarget "ISS Screensaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6B2579191FE4DD0004AADA /* Debug */,
+				5F6B257A191FE4DD0004AADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F6B2557191FE4DD0004AADA /* Project object */;
+}
